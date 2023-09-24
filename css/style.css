@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  position: absolute;
+  top: 70px;
+  right: 50px;
+  font-size: 35px;
+}
+
+.header-top {
+  background-color: black;
+}
+
+.ul-navigation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  color: white;
+}
+
+.section-container1 {
+  display: flex;
+  gap: 105px;
+}
+
+.section-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.article-container {
+  min-height: 300px;
+  min-width: 650px;
+  border: 1px solid black;
+}
+
+.flex-container {
+  height: 200px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.section-container-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-item {
+  min-height: 300px;
+  min-width: 450px;
+  border: 1px solid black;
+}
+
+.article1-h2 {
+  margin-top: 300px;
+  width: 650px;
+  height: 300px;
+  position: absolute;
+  top: 200px;
+}
+
+.dog-president {
+  width: 650px;
+  height: 300px;
+  position: absolute;
+  bottom: 365px;
+}
