@@ -1,13 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-p {
-  position: absolute;
-  top: 70px;
-  right: 50px;
-  font-size: 35px;
 }
 
 .header-top {
@@ -23,53 +17,34 @@ p {
   list-style: none;
   color: white;
 }
-
-.section-container1 {
-  display: flex;
-  gap: 105px;
-}
-
-.section-container2 {
+/* to make all the child elements Flex */
+.section-under-header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 15px;
+  gap: 10px;
 }
 
-.article-container {
-  min-height: 300px;
-  min-width: 650px;
-  border: 1px solid black;
+.solarpower-article-img {
+  margin: 10px 0 0 10px;
 }
 
-.flex-container {
-  height: 200px;
-  width: 300px;
-  border: 1px solid black;
+/* combining classes that should have the same specs */
+.dolphin-article-img,
+.lost-city-img {
+  min-width: 250px; /* makes sure imgs dont leave their container */
+  max-height: 150px;
+  flex-grow: 1;
 }
 
-.section-container-bottom {
-  display: flex;
-  justify-content: space-evenly;
+figcaption {
+  font-size: 20px;
+  margin-top: 10px;
+  max-width: 100%;
 }
 
-.flex-item {
-  min-height: 300px;
-  min-width: 450px;
-  border: 1px solid black;
-}
-
-.article1-h2 {
-  margin-top: 300px;
-  width: 650px;
-  height: 300px;
-  position: absolute;
-  top: 200px;
-}
-
-.dog-president {
-  width: 650px;
-  height: 300px;
-  position: absolute;
-  bottom: 365px;
+.solarpower-text,
+.dolphin-text-img,
+.lost-city-text-img {
+  max-width: 250px;
+  margin: 10px;
 }
